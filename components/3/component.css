@@ -5,4 +5,86 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
+
+
+
+section {
+	margin: 0 auto;
+	width: 13076px;
+	height: 750px;
+	background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url('component.jpg');
+}	
+	
+
+h1 {
+	font-family: Coda;
+    font-size: 88px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 800;
+    font-stretch: normal;
+    line-height: 96px;
+	width: 1170px;
+	height: 192px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing:-2px;
+	padding-top: 100px;
+	margin-bottom: 24px;
+	margin-left: 100px;
+
+}
+
+
+.button {
+	box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 62px;
+    
+    font: 14px/68px 'Coda';
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 0;
+    color: #ffffff;
+    letter-spacing: 3px;
+    background: transparent;
+    text-transform: uppercase;
+    border: 3px solid #ffffff;
+    float: none;
+    
+  }
+  a.button:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #66663e;
+}  
+  
+
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+    z-index: 1000;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HEADER ======================================== */
+
+
