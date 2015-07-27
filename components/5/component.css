@@ -3,6 +3,99 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+/* SECTION ======================================== */
 
-/* HEADER ======================================== */
+
+
+
+section {
+	width: 1168px;
+	height: 500px;
+}	
+
+
+
+#left {
+	height: 257px;
+	width: 270px;
+	float: left;
+	margin-top: 100px;
+}
+
+
+#right {
+	height: 257px;
+	width: 270px;
+	float: right;
+	margin-top: 100px;
+}
+
+
+.picleft {
+	float:left;
+	margin-right:20px;
+	margin-left: 24px;
+	margin-top: 100px;
+}	
+
+h4 {
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 18px;
+  }  
+
+
+.info {
+	font-weight: 400;
+    font-style: italic;
+    font-family: times new roman, times;
+    color: #111;
+    font-size: 18px;
+}
+
+
+p {
+	padding: 20px 0px 0px 0px;
+}	
+
+
+.button {
+	box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 38px;
+   border-radius: 0;
+    color: #000;
+    letter-spacing: 3px;
+    background: transparent;
+    text-transform: uppercase;
+    border: 3px solid #000;
+    float: none;
+    
+  }
+  a.button:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #000;
+}  
+  
+
+ p a {
+ 	color: #000;
+ }	 
+
+
+  
+
+
+
+
+
+
+
+/*SECTION ======================================== */
