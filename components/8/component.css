@@ -3,6 +3,73 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
+
+
+section{
+    background-color: #FFF;
+    color:#000;
+    border: 1px solid #42464b;
+    border-radius: 10px;
+    height: 320px;
+    margin: 200px auto 0;
+    width: 330px;
+    text-align:center;
+}
+h2{
+    background:#FFF;
+    padding-top:30px;
+    letter-spacing: -1px;
+    word-spacing: -4px;
+    font-size:1.5em;
+    font-family:sans-serif;
+    font-weight:700;
+    border-radius:10px 10px 0 0;
+
+}
+
+
+input[type="password"], input[type="text"] {
+    border: 1px solid #000000;
+  	color: #696969;
+    height: 39px;
+    margin: 31px 0 0 0;
+   padding-left: 5px;
+    width: 285px;
+
+}
+
+input[type="submit"] {
+    width:285px;
+    height:45px;
+    font-family:Arial, "Helvetica", sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+    padding-top:6px;
+    margin: 29px 0 0 0;
+    position:relative;
+    cursor:pointer;
+    border: none;
+    background-color: #000;
+   
+}
+
+	
+
+ section a {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
