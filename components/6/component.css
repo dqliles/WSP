@@ -3,6 +3,60 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
+
+
+section {
+	width:960px;
+	height: 400px;
+	padding: 20px 10px;
+	background-color: #e3e0da;
+}	
+
+
+
+h2 {
+	padding: 10px 0px;
+	font: 700 24px/30px "Open Sans", sans-serif;
+    color: #484a49;
+    letter-spacing: -0.05em;
+}	
+
+
+
+article {
+	float: left;
+	width: 540px;
+	height: 255px;
+}	
+
+img {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}	
+
+.comments {
+	display: inline-block;
+	padding-right:20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}	
+
+p {
+	padding-bottom: 60px;
+}	
+
+
+	.myButton {
+	margin-top: 20px
+	display: inline-block;
+    font: 700 11px/30px "Arial", sans-serif;
+    color: #ffffff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.09);
+    background: #080500;
+    overflow: hidden;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
