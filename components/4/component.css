@@ -3,6 +3,74 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
+body {
+	background:#FFF;
+}
+
+section {
+	margin: 50px;
+	padding-top: 45px;
+	border-top: 3px #000 solid;
+	width: 110px;
+	float: left;
+	clear: both;
+}
+article {
+	float: left;
+	clear: none;
+	margin-right: 32px;
+	border-bottom: 3px #000 solid;
+}
+article:last-child {
+	margin: 0;
+}
+
+img {
+	width: 534px;
+	height: 398px;
+}		
+
+h1, h2, h3, h4, a {
+	color: #000;
+	font-family: "Helvetica";
+	font-size: 34px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}	
+
+
+h2 {
+	font-size: 14px;
+	color: #ddd;
+	margin-bottom: 20px;
+}
+
+h3, h4, a {
+	font-size: 13px;
+	text-transform: none;
+}
+
+h3 {
+	margin-top: 10px;
+}
+
+h4 { 
+	margin-bottom: 30px;
+}
+					
+ul {
+	margin: 0;
+	padding: 10px 0 45px 0;
+	float: left;
+}
+li {
+	list-style-type: none;
+	clear: none;
+	display: inline;
+}
+
+ul li a {
+	color: #000;
+}								
