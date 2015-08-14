@@ -93,10 +93,18 @@ article p {
 	text-align: justify;
 }
 
+#component3 img {
+	width: 50%;
+}	
 
 
+#component5 img {
+	width: 50%;
+}	
 
-
+#component7 img {
+	width: 70%;
+}	
 
 footer {
 	float: right;

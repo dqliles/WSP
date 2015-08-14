@@ -1,91 +1,101 @@
+/* 
+================================================================================
+COMPONENT STYLESHEET
+================================================================================ */
 
-body {
-	margin: 0;
-	padding: 0;
-	font-size: 15px;
-}
+/* SECTION ======================================== */
 
-nav {
-	font-family: sans-serif;
-	position: fixed;
-	width: 100%;
-	background-color: #312E39;
-	margin:0;
-	overflow: visiblie;
-	z-index: 10000;
-	top: 0;
-	left: 0;
-	right: 0;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-	opacity: 100;
-}
 
-nav ul {
-	margin-top: 7px;
-	margin-bottom: 7px;
-	padding: 0;
-	font-size: 14px;
-	float: right;
-}
 
-nav ul li {
-	display: inline-block;
-	list-style-type: none;
-}
 
-nav > ul> li> a {
-	color: white;
-	display: block;
-	line-height: 2em;
-	padding: 5px 20px 5px 20px;
-	text-decoration: none;
-	margin-right: 30px;
-}
+section {
+	width: 1168px;
+	height: 500px;
+}	
 
-.logo {
+
+
+#left {
+	height: 257px;
+	width: 270px;
 	float: left;
+	margin-top: 100px;
 }
 
-#pre-order {
 
-	border-radius: 20px;
-	color: #F2583B;
-	background: #F2583B;
-	text-decoration: none;
-	margin-right: 20px;
-
+#right {
+	height: 257px;
+	width: 270px;
+	float: right;
+	margin-top: 100px;
 }
 
-p {
-	padding-top: 70px;
-}					
-				
 
-
-
-
-
-
-
-
-
-
-
-
-
-button {
-	display: block
-
-
-
-button:hover {
-	background: #D93512
-	text-decoration: none;
+.picleft {
+	float:left;
+	margin-right:20px;
+	margin-left: 24px;
+	margin-top: 100px;
 }	
 
+h4 {
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 18px;
+  }  
 
+
+.info {
+	font-weight: 400;
+    font-style: italic;
+    font-family: times new roman, times;
+    color: #111;
+    font-size: 18px;
+}
 
 
 p {
-	padding-top: 70px;
+	padding: 20px 0px 0px 0px;
 }	
+
+
+.button {
+	box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 38px;
+   border-radius: 0;
+    color: #000;
+    letter-spacing: 3px;
+    background: transparent;
+    text-transform: uppercase;
+    border: 3px solid #000;
+    float: none;
+    
+  }
+  a.button:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #000;
+}  
+  
+
+ p a {
+ 	color: #000;
+ }	 
+
+
+  
+
+
+
+
+
+
+
+/*SECTION ======================================== */
